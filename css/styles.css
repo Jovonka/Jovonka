@@ -1,0 +1,291 @@
+
+
+body {
+    margin: 0; padding: 0;
+    background-color: #000000;
+    color: #f2f2f2;
+ }
+
+
+.backheader img{
+   height: 475px;
+    width: 100%;
+}
+.topnav { 
+   /*Header bar*/
+   overflow: hidden;
+   background-color: #07010d;
+   margin-top: -51px;
+ 
+  
+ }
+ .topnav a {
+   float: left;
+   color: #f2f2f2;
+   padding-top: 10px;
+   padding: 0px 23px;
+   text-decoration: none;
+   font-size: 30px;
+   
+ }
+ iframe {
+
+border-style: none;
+position: absolute;
+
+height: 530px;
+width: 777px;
+
+ }
+ header {
+    padding-left: 340px;
+ }
+ .inside {
+    padding-left: 35%;
+    padding-top: 1.5%;
+ }
+ .topnav a:hover img {
+    background-color: rgba(7, 120, 161, 0.206);
+   border-radius: 10%;
+ }
+ 
+ .topnav a:hover {
+    color: rgb(255, 0, 0);
+    
+ }
+ .intro_text .p1{
+    font-size: 26px;
+    color:yellow;
+    line-height: 1.3;
+   
+    
+ }
+ .intro_text h3 {
+    
+    font-size: 77px;
+    color: rgb(247, 247, 247);
+    margin-bottom: 10px;
+ }
+ .p2 {  
+    
+    padding: 156px;
+    float: right;
+    
+    line-height: 1.3;
+    
+    
+ }
+ .warn img{
+    height: 87px;
+    padding-left: 24%;
+    width: 321px;
+ }
+ .blood img{
+    border: 5px;
+    opacity: 40%;
+    height: 95%;
+    position: absolute;
+    width: 100%;
+    margin-left: -234px;
+ }
+ .content_grid {
+    margin-top: 1%;
+    margin-bottom: -1%;
+    margin-left: 3%;
+ }
+
+ h3{
+    font-size: 60px;
+    margin: -7px;
+ }
+ .gif img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    object-position: center;
+    display: inline;
+    margin-left: 45px;
+    margin-top: -83px;
+    margin-bottom: 30px;
+}
+
+ .column_container {
+    width: 960px;
+    margin: auto;
+    padding-top: 95px;
+ }
+ li {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-bottom: 24px;
+}
+ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ul {
+    padding: 0;
+}
+ul div {
+    width: 425px;
+}
+
+.content_grid img {
+    width: 200px;
+    height: 345px;
+    object-fit: cover;
+    float: left;
+    object-position: center;
+    display: inline;
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h5{
+    color: yellow;
+    font-size: 21px;
+}
+
+
+
+a:link {
+    color: darkturquoise;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.formDiv{
+    position: absolute;
+    margin-top: 3%;
+}
+.row{
+    border: 0.5px dotted #ff0000;
+    border-radius: 4px;
+}
+
+ footer{
+   text-align: right;
+   
+   color: aliceblue;
+ }
+ 
+* {
+    font-family: 'VT323', monospace;
+}
+@media screen and (max-width: 768px) {
+    .intro_text h3 {
+        font-size: 3rem;
+        color: rgb(247, 247, 247);
+        margin-bottom: 10px;
+        margin-left: 60px;
+    }
+    p {
+        font-size: smaller;
+        margin-left: 60px;
+    }
+    h3 {
+        margin-left: 60px; 
+    }
+    ul {
+        margin-left: 50px;
+    }
+    .row{
+        margin-left: 60px;
+    }
+    .backheader {
+        margin-left: 60px;
+    }
+ body {
+    margin: -15px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+   
+    .intro_text h3 {
+        font-size: 300%;
+        color: rgb(247, 247, 247);
+        margin-bottom: 10px;
+        margin-left: 6%;
+    }
+    .content_grid p {
+        font-size: 17px;
+    }
+    .topnav {
+        width: 100%;
+    }
+    
+    li {
+        float:none;
+    }
+    h3 {
+        margin-left: 60px; 
+    }
+    .gif img {
+        display:none;
+    }
+    .intro_text img {
+        margin-left: -23%;
+        float:none;
+    }
+    .intro_text .p1 {
+        margin-right: 10%;
+        
+
+    }
+    .intro_text .p2 {
+        margin-left: -10%;
+        padding: 10%;
+      
+    
+    }
+    ul {
+        margin-left: 50px;
+    }
+    .row{
+       
+        width: 46%;
+    }
+    .column_container {
+        width: 500px;
+    }
+    .backheader img{
+        height: 383px;
+        width: 100%;
+   margin-left: -4%;
+        
+    }
+    .inside a {
+        font-size: 17px;
+     
+    }
+ 
+    .formDiv{
+        margin-top: 0%;
+    }
+    footer{
+        font-size: 13px;
+        padding-left: 40px;
+        padding-top: 27px;
+        padding-bottom: 10px;
+        text-align: left;
+ 
+    }
+}
+
